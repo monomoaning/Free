@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __HASHTABLE_H__
+#define __HASHTABLE_H__
 #include <string>
 
 class hashtable {
@@ -19,3 +20,4 @@ private:
 	bool exist(const std::string &);
 	item * *table=nullptr;
 };
+#endif // !__HASHTABLE_H__
